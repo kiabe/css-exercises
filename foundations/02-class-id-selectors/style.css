@@ -1,0 +1,19 @@
+#unique {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.pink {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.big,
+#green {
+    font-size: 24px;
+}
+
+#green {
+    background-color: lightgreen;
+    font-weight: bold;
+}
