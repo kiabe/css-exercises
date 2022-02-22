@@ -1,6 +1,22 @@
 .header  {
+  /* this is flex container for left, logo, and right */
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-links {
+  /* this sets left links on left side */
+  margin-right: auto;
+}
+
+.right-links {
+  /* this sets right links on right side */
+  margin-left: auto;
 }
 
 .logo {
@@ -9,11 +25,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* this flexes the li so they go horizontal
+  and not vertical*/
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
