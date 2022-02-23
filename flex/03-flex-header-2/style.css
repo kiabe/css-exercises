@@ -34,7 +34,7 @@ body {
 }
 
 .links {
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 button {
@@ -43,13 +43,14 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin: 16px;
+  margin: 8px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 4px;
 }
 
 ul {
