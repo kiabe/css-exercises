@@ -64,3 +64,35 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My Code Solution */
+
+.modal {
+  padding: 16px;
+  /* puts padding around modal */
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+  /* makes header bold and larger than other text */
+}
+
+.headerClose {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* puts header and close button on same line */
+}
+
+.modal {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.iconFlex {
+  align-self: flex-start;
+  margin-right: 16px;;
+}
