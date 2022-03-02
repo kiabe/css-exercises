@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -24,4 +24,69 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* My Code Solution */
+
+.left-links,
+.right-links {
+  /* removes bullets from bullet points */
+  list-style: none;
+  /* put links on same line */
+  display: flex;
+  /* put space between links */
+  gap: 16px;
+  /* pushes space for links so they sit more visually pleasing */
+  padding: 12px;
+  margin: 12px;
+}
+
+a:link {
+  /* removes underline from links */
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  /* locks header at top of page and separates left and right links from each other */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  /* sets background color of footer, distinguishing it */
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image,
+.input,
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  gap: 8px;
+  padding: 8px;
+}
+
+button {
+  font-weight: bold;
+  padding: 8px;
+}
+
+.image {
+  padding-top: 10rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
 }
