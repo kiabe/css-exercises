@@ -26,3 +26,69 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My Code Solution */
+
+body {
+  /* lets me stick footer on bottom by flexing body */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  font-weight: 900;
+  font-size: 32px;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link {
+  /* takes off underline */
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  /* takes off bullet */
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.sidebar {
+  width: 300px;
+  padding-right: 5em;
+  /* flex keeps sidebar from shrinking with changing screen size */
+  flex: 1;
+}
+
+.cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: pink;
+  gap: 0.5rem;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  padding-left: 1em;
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: aquamarine;
+}
+
+.content {
+  /* sets footer down on bottom */
+  flex: 1;
+  /* sets the frame for the holy grail */
+  display: flex;
+}
