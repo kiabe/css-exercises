@@ -59,13 +59,13 @@ li {
   /* takes off bullet */
   list-style-type: none;
   font-size: 24px;
+  margin-bottom: 16px;
 }
 
 .sidebar {
   width: 300px;
-  padding-right: 5em;
   /* flex keeps sidebar from shrinking with changing screen size */
-  flex: 1;
+  flex-shrink: 0;
 }
 
 .cardBox {
